@@ -1,19 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NextWealth</title>
+  <title>NextWealth™ Global</title>
+
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: gold;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 25px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      padding: 12px 25px;
+      background: gold;
+      border: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Welcome to NextWealth</h1>
+
+  <h1>NextWealth™ Global</h1>
+
   <p>Your guide to passive income and generational wealth starts here.</p>
-  <a href="NextWealth_Guide.pdf" download>Download the Guide</a>
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" required></textarea>
-    <button type="submit">Send</button>
+
+  <!-- DOWNLOAD BUTTON -->
+  <a class="button" href="NextWealth_Guide.pdf" download>
+    Download the Guide
+  </a>
+
+  <!-- EMAIL CAPTURE FORM -->
+  <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <textarea name="message" placeholder="Message (optional)"></textarea>
+
+    <button type="submit">Get Access</button>
+
   </form>
+
 </body>
 </html>
